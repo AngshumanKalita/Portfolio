@@ -8,7 +8,7 @@ body {
 .profile{
   text-align: left;
   text-shadow: 2px 2px 4px black;
-  background-image: url('background.jpg');
+  background-image: url('https://github.com/AngshumanKalita/Resume/blob/main/background.JPG');
   padding-top: 100%;
 
   margin-left: 25px;
@@ -127,7 +127,7 @@ text-align: center;
 /* Projects Section Styling */
 .pcontainer{
   text-shadow: 2px 2px 4px black;
-  background-image: url('Project.jpg');
+  background-image: url('https://github.com/AngshumanKalita/Resume/blob/main/project.jpg');
   background-size: cover;
   margin: 25px;
   background-position: center;
@@ -155,7 +155,7 @@ text-align: center;
 /* Featured Section Styling */
 .fcontainer{
   text-shadow: 2px 2px 4px black;
-  background-image: url('featured.JPG');
+  background-image: url('https://github.com/AngshumanKalita/Resume/blob/main/featured.JPG');
   background-size: cover;
   margin: 25px;
   background-position: center;
