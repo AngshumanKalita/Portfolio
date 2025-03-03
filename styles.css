@@ -7,19 +7,17 @@ body {
 }
 .profile{
   text-align: left;
-  text-shadow: 2px 2px 4px black;
-  background-image: URL("./bg.jpg");
+  background-image: URL("./project.jpg");
   background-size: cover;
-  padding-top: 100%;
-
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-top: 70px;
-  border-radius: 25px;
+  margin: 25px;
   background-position: center;
-  padding: 140px;
-  animation: zoomOutBackground 3s ease-in-out forwards;
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  animation: zoomOutBackground 3s ease-in-out forwards 
 }
 .profile: hover{
   animation: zoomInBackground 0.5s ease-in-out forwards
