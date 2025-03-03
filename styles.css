@@ -8,7 +8,7 @@ body {
 .profile{
   text-align: left;
   text-shadow: 2px 2px 4px black;
-  background-image: URL("background.jpg");
+  background-image: URL("./background.jpg");
   padding-top: 100%;
 
   margin-left: 25px;
@@ -127,7 +127,7 @@ text-align: center;
 /* Projects Section Styling */
 .pcontainer{
   text-shadow: 2px 2px 4px black;
-  background-image: URL("project.jpg");
+  background-image: URL("./project.jpg");
   background-size: cover;
   margin: 25px;
   background-position: center;
@@ -155,7 +155,7 @@ text-align: center;
 /* Featured Section Styling */
 .fcontainer{
   text-shadow: 2px 2px 4px black;
-  background-image: URL("featured.jpg");
+  background-image: URL("./featured.jpg");
   background-size: cover;
   margin: 25px;
   background-position: center;
