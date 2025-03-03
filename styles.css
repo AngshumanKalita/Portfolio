@@ -364,6 +364,6 @@ iframe {
     margin: 10px;
 }
 .shadow-iframe {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
             /* Adjust the box-shadow values as needed */
         }
