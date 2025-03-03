@@ -1,0 +1,364 @@
+/* General Reset and Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma,Geneva,Verdana, sans-serif;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.profile{
+  text-align: left;
+  text-shadow: 2px 2px 4px black;
+  background-image: url('background.jpg');
+  padding-top: 100%;
+
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-top: 70px;
+  border-radius: 25px;
+  background-position: center;
+  padding: 140px;
+  animation: zoomOutBackground 3s ease-in-out forwards;
+}
+.profile:hover{
+  animation: zoomInBackground 0.5s ease-in-out forwards
+}
+
+.prosummary{
+  margin-right: 580px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 60px 10px 5px;
+  background-color: rgba(0, 38, 79, 0.2);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.prosummary:hover{    
+  background-color: rgba(0, 38, 79, 0.5)
+}
+
+.profile helo{
+font-size: 30px;
+text-align: left;
+padding-bottom: 100px;
+
+}
+
+.profile h1{
+  margin-right: 580px;
+  padding: 5px 60px 0px 5px;
+  background-color: rgb(0, 38, 79, 0.2);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.profile h1:hover{    
+  background-color: rgba(0, 38, 79, 0.5)
+}
+
+.profile span {
+  color: orange;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes zoomOutBackground {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 105%;
+  }
+}
+
+@keyframes zoomInBackground {
+  from {
+    background-size: 105%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
+
+/* About Section Styling */
+.aboutme_container {
+  background-color: rgb(0, 0, 122);
+  background-size: cover;
+  margin: 25px;
+  background-position: center;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.aboutme_container h1{
+ padding-top: 10px;
+ padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  margin-top: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+.am {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  max-width: 700px;
+  padding-top: 10px;
+  background-color: rgba(0, 38, 79, 0.7);
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+/* Projects Section Styling */
+.pcontainer{
+  text-shadow: 2px 2px 4px black;
+  background-image: url('Project.jpg');
+  background-size: cover;
+  margin: 25px;
+  background-position: center;
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  animation: zoomOutBackground 3s ease-in-out forwards
+
+}
+.pcontainer:hover{
+  animation: zoomInBackground 0.5s ease-in-out forwards
+}
+.pcontainer h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+   background-color: rgba(0, 0, 0, 0.4);
+   border-radius: 20px;
+   margin-top: 10px;
+   font-size: 30px;
+}
+
+/* Featured Section Styling */
+.fcontainer{
+  text-shadow: 2px 2px 4px black;
+  background-image: url('featured.JPG');
+  background-size: cover;
+  margin: 25px;
+  background-position: center;
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 10px;
+  animation: zoomOutBackground 3s ease-in-out forwards
+
+}
+
+.fcontainer:hover{
+  animation: zoomInBackground 0.5s ease-in-out forwards
+}
+.fcontainer h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+   background-color: rgba(0, 0, 0, 0.4);
+   border-radius: 20px;
+   margin-top: 10px;
+   font-size: 30px;
+}
+
+.projects-container {
+  display: flex;
+  margin: 1px;
+
+}
+
+.project {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  width: calc(50% - 40px); /* Adjusted for better inline layout */
+  max-width: 400px; /* Set a maximum width */
+  
+}
+
+.probody {
+  text-align: justify;
+  text-shadow: 1px 1px 1px gray;
+  font-size: 14px;  
+  
+}
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 3%;
+  /*border: 5px solid black;*/
+  display: block;
+  margin: 0 auto 10px;
+  box-shadow: 2px 2px 4px black;
+  
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  background-color: #0579de;
+  color: white;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  margin: -8px;
+  font-size: 10px;
+}
+
+.social img {
+  width: 70Px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.social{
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(0, 123, 255,0.8);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(0, 123, 255);
+}
+
+
+.seemore {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 123, 255, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.seemore:hover {
+  background-color: rgb(0, 123, 255);
+}
+
+.more-text {
+  display: none;
+}
+
+.more {
+  color: white;
+  margin-top: 10px;
+}
+
+.more:hover {
+  color: blue;
+}
+
+.transparent-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+u {
+  text-decoration: underline;
+}
+
+bol {
+  font-weight: bold;
+}
+.topico{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 13, 27, 0.4);
+  padding: 10px 20px 20px 10px;
+  border-radius: 10px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 5%;
+  border: 5px solid rgb(255, 165, 0);
+}
+
+.about-me{
+margin-top: 5%;
+text-align: justify;
+font-size: 20px;
+}
+
+.about-me h2{
+  text-decoration: underline;
+  color: rgb(255, 165, 0);
+  text-shadow: 10px;
+}
+
+.rescontainer{
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: center; /* Align horizontally */
+  margin: 0 10px;
+}
+
+
+.navdiv{
+  position: fixed;
+  top: 0%;
+  left: 75%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  justify-content: space-between;
+}
+
+li{
+  list-style:none;
+  display: inline-block;
+}
+li a{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+li a:hover{
+  font-size: 15px;
+}
