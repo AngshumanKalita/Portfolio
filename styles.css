@@ -1,6 +1,6 @@
 /* General Reset and Body Styling */
 body {
-  font-family: 'Segoe UI', Tahoma,Geneva,Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva,Verdana, sans-serif;
   text-decoration: none;
   background-color: black;
   color: white;
@@ -8,7 +8,7 @@ body {
 .profile{
   text-align: left;
   text-shadow: 2px 2px 4px black;
-  background-image: url('https://github.com/AngshumanKalita/Resume/blob/main/background.JPG');
+  background-image: URL("https://github.com/AngshumanKalita/Resume/blob/main/background.JPG");
   padding-top: 100%;
 
   margin-left: 25px;
@@ -20,7 +20,7 @@ body {
   padding: 140px;
   animation: zoomOutBackground 3s ease-in-out forwards;
 }
-.profile:hover{
+.profile: hover{
   animation: zoomInBackground 0.5s ease-in-out forwards
 }
 
