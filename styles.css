@@ -165,7 +165,6 @@ text-align: center;
   padding-right: 100px;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 10px;
   animation: zoomOutBackground 3s ease-in-out forwards
 
 }
@@ -332,7 +331,6 @@ font-size: 20px;
   display: flex;
   align-items: center; /* Align vertically */
   justify-content: center; /* Align horizontally */
-  margin: 10px;
 }
 
 
