@@ -8,7 +8,7 @@ body {
 .profile{
   text-align: left;
   text-shadow: 2px 2px 4px black;
-  background-image: "/background.jpg";
+  background-image: url("./background.jpg");
   padding-top: 100%;
 
   margin-left: 25px;
