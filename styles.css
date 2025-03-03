@@ -7,7 +7,7 @@ body {
 }
 .profile{
   text-align: left;
-  background-image: URL("./project.jpg");
+  background-image: URL("./bg.jpg");
   background-size: cover;
   margin: 25px;
   background-position: center;
