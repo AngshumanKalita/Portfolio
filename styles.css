@@ -155,7 +155,7 @@ text-align: center;
 /* Featured Section Styling */
 .fcontainer{
   text-shadow: 2px 2px 4px black;
-  background-image: URL("./featured.jpg");
+  background-image: URL("./fe.jpg");
   background-size: cover;
   margin: 25px;
   background-position: center;
