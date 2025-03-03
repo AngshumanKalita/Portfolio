@@ -13,11 +13,10 @@ body {
   text-align: left;
   text-shadow: 2px 2px 4px black;
   background-image: URL("./bg.jpg");
-  padding-top: 100%;
+  padding: 20px;
   margin: 20px auto;
   border-radius: 25px;
   background-position: center;
-  padding: 140px;
   animation: zoomOutBackground 3s ease-in-out forwards;
   max-width: 90%;
 }
@@ -27,7 +26,7 @@ body {
 }
 
 .prosummary {
-  font-size: 20px;
+  font-size: 1.2em;
   padding: 5px 10px;
   background-color: rgba(0, 38, 79, 0.2);
   color: #fff;
@@ -44,7 +43,7 @@ body {
 }
 
 .profile helo {
-  font-size: 30px;
+  font-size: 5vw;
   text-align: left;
   padding-bottom: 20px;
 }
@@ -104,7 +103,7 @@ body {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 5vw;
   text-align: center;
 }
 
@@ -141,7 +140,7 @@ body {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 20px;
-  font-size: 24px;
+  font-size: 5vw;
 }
 
 /* Featured Section Styling */
@@ -165,14 +164,13 @@ body {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 20px;
-  font-size: 24px;
+  font-size: 5vw;
 }
 
 .projects-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project {
@@ -181,8 +179,8 @@ body {
   border-radius: 10px;
   margin: 20px;
   padding: 10px;
-  width: 90%;
-  max-width: 400px;
+  flex: 1 1 calc(50% - 40px);
+  max-width: calc(50% - 40px);
 }
 
 .probody {
@@ -218,13 +216,13 @@ footer {
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1em 2em;
   background-color: rgba(0, 123, 255, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 10px;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 .btn:hover {
@@ -281,8 +279,8 @@ bol {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -310,6 +308,7 @@ bol {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Navigation Section */
@@ -344,8 +343,74 @@ li a:hover {
 
 iframe {
   margin: 10px;
+  width: 90%;
+  height: 80vh;
 }
 
 .shadow-iframe {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .profile {
+    padding: 20px;
+  }
+  .project {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .profile-pic {
+    width: 50px;
+    height: auto;
+  }
+  .am {
+    flex-direction: column;
+  }
+  .navdiv {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .navdiv ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .navdiv li a {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    padding: 10px;
+  }
+  .project {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  .profile-pic {
+    width: 40px;
+    height: auto;
+  }
+  .navdiv {
+    padding: 5px;
+  }
+  .navdiv li a {
+    font-size: 10px;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
