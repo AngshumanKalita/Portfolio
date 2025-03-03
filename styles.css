@@ -16,7 +16,6 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 20px;
-  text-align: center;
   animation: zoomOutBackground 3s ease-in-out forwards 
 }
 .profile: hover{
