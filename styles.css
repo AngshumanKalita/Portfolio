@@ -360,3 +360,6 @@ li a{
 li a:hover{
   font-size: 15px;
 }
+iframe {
+    margin: 10px;
+}
