@@ -103,11 +103,21 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .navdiv {
+    padding: 5px;
+  }
+
+  .menu li a {
+    font-size: 10px;
+  }
+}
+
 /* Profile Section Styling */
 .profile {
   text-align: left;
   text-shadow: 2px 2px 4px black;
-  background-image: URL("./bg.jpg");
+  background-image: url("./bg.jpg");
   padding: 20px;
   margin: 20px auto;
   border-radius: 25px;
@@ -217,7 +227,7 @@ body {
 /* Projects Section Styling */
 .pcontainer {
   text-shadow: 2px 2px 4px black;
-  background-image: URL("./project.jpg");
+  background-image: url("./project.jpg");
   background-size: cover;
   margin: 20px auto;
   padding: 20px;
@@ -241,7 +251,7 @@ body {
 /* Featured Section Styling */
 .fcontainer {
   text-shadow: 2px 2px 4px black;
-  background-image: URL("./fe.jpg");
+  background-image: url("./fe.jpg");
   background-size: cover;
   margin: 20px auto;
   padding: 20px;
