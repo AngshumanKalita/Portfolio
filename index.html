@@ -1,104 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Angshuman Kalita - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <nav class="nevbar">
-      <div class="navdiv">
-        <ul>
-          <li><a href="#home">HOME</a></li> 
-          <li><a href="#projects">PROJECTS</a></li> 
-          <li><a href="#featured">FEATURED</a></li> 
-          <li><a href="#about">ABOUT</a></li>
-        </ul>
+    <nav class="navbar">
+      <div class="logo">Angshuman's Portfolio</div>
+      <!-- Hamburger Icon (visible on mobile/tablet) -->
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
+      <!-- Navigation Menu -->
+      <ul class="nav-menu">
+        <li><a href="#home">HOME</a></li> 
+        <li><a href="#projects">PROJECTS</a></li> 
+        <li><a href="#featured">FEATURED</a></li> 
+        <li><a href="#about">ABOUT</a></li>
+      </ul>
     </nav>
   </header>
-    
-  <section id='home'>
+
+  <!-- Home Section -->
+  <section id="home">
     <div class="profile">
-      <h1><helo>Hello!<br></helo>I'm <span>Angshuman Kalita</span></h1>
-      <p class="prosummary">Imbued with a creative mind and a focus on problem-solving, delivering innovative solutions to overcome challenges.</p>
+      <h1>Hello!<br>I'm <span>Angshuman Kalita</span></h1>
+      <p class="prosummary">
+        Imbued with a creative mind and a focus on problem-solving, delivering innovative solutions to overcome challenges.
+      </p>
     </div>
   </section>
   
+  <!-- Projects Section -->
   <section id="projects">
     <div class="pcontainer">
       <h1>My Projects</h1>
       <div class="projects-container">
         <div class="project">
-          <img src="./project1.jpg" alt="Project 1">
-          <h3><u>BA Test Randomizer V0.2</u></h3>
+          <img src="project1.jpg" alt="Project 1" />
+          <h3>BA Test Randomizer V0.2</h3>
           <div class="probody">
-            <p>Developed based on DGCA CAR Section 5 - Air Safety Series F Part 4, this tool ensures that 25% of duty staff are selected for mandatory BA tests. Over the past 2 months, B.A.T.R.T has significantly reduced time consumption and improved our team's efficiency.
-              <a href="https://www.linkedin.com/posts/angshumankalita-project-management-safety-professional_batrt-v02-activity-7226514821880397824-7NT6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC2Z_yYBxV1N9HMFu0NK5nE5ywZpwV04Ed0" target="_blank" class="more">...see more</a></p>
+            <p>
+              Developed based on DGCA CAR Section 5 - Air Safety Series F Part 4, this tool ensures that 25% of duty staff are selected for mandatory BA tests.
+              <a href="https://www.linkedin.com/posts/angshumankalita-project-management-safety-professional_batrt-v02-activity-7226514821880397824-7NT6" target="_blank" class="more">...see more</a>
+            </p>
           </div>
         </div>        
         <div class="project">
-          <img src="project2.jpg" alt="Project 2">
-          <h3><u> V.R.S V0.1 </u></h3>
-            <div  class="probody">
-            <p>The development of a Violation Reporting System Or V.R.S for short, that aims to enhance safety and operational efficiency on the airside.
-            <a href="https://www.linkedin.com/posts/angshumankalita-project-management-safety-professional_aviationsafety-innovation-aviation-activity-7245072757925834752-E39P?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC2Z_yYBxV1N9HMFu0NK5nE5ywZpwV04Ed0" target="_blank" class="more">...see more</a></p>
-            </div>
+          <img src="project2.jpg" alt="Project 2" />
+          <h3>V.R.S V0.1</h3>
+          <div class="probody">
+            <p>
+              The development of a Violation Reporting System (V.R.S) aimed to enhance safety and operational efficiency on the airside.
+              <a href="https://www.linkedin.com/posts/angshumankalita-project-management-safety-professional_aviationsafety-innovation-aviation-activity-7245072757925834752-E39P" target="_blank" class="more">...see more</a>
+            </p>
+          </div>
         </div>
         <div class="project">
-          <img src="project3.jpg" alt="Project 3">
-          <h3><u>Project Report: Store Data Analysis for 2023</u></h3>
-            <div  class="probody">
-            <p>The project aimed to create an annual sales report for 2023, enhancing the store's understanding of its customer base and devising strategies for 2024 sales.
-            <a href="https://www.linkedin.com/posts/angshumankalita-project-management-safety-professional_im-happy-to-share-this-project-report-store-activity-7195122133373485056-tZcB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC2Z_yYBxV1N9HMFu0NK5nE5ywZpwV04Ed0" target="_blank" class="more">...see more</a></p>
-            </div>
+          <img src="project3.jpg" alt="Project 3" />
+          <h3>Project Report: Store Data Analysis for 2023</h3>
+          <div class="probody">
+            <p>
+              An annual sales report for 2023 that enhanced the store’s understanding of its customer base and provided strategies for 2024.
+              <a href="https://www.linkedin.com/posts/angshumankalita-project-management-safety-professional_im-happy-to-share-this-project-report-store-activity-7195122133373485056-tZcB" target="_blank" class="more">...see more</a>
+            </p>
+          </div>
         </div>
       </div>
-      <p><a href="https://www.linkedin.com/in/angshumankalita-project-management-safety-professional/details/projects/" target="_blank" class="btn"><b>More Projects</b></a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/angshumankalita-project-management-safety-professional/details/projects/" target="_blank" class="btn">More Projects</a>
+      </p>
     </div>
   </section>
 
+  <!-- Featured Section -->
   <section id="featured">
     <div class="fcontainer">
       <h1>Featured</h1>
       <div class="flex-container">
-     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7291672888925982721" height="680" width="604" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7300427538869190657" height="680" width="604" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-       </div>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7291672888925982721" height="680" width="" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7300427538869190657" height="680" width="" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+      </div>
     </div>
   </section>
   
+  <!-- About Section -->
   <section id="about">
     <div class="aboutme_container">
       <h1>About Me</h1>
       <div class="flex-container">
-      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-      
-        <p class="am">An Engineer in the Aviation sector since 2021. With a passion for creativity and problem-solving, I thrive in challenging environments where innovation is key.
-          <br>I tackle complex challenges with inventive solutions. Whether it's optimizing processes or enhancing efficiency, I'm driven by a curiosity to find better ways of doing things. I believe in fostering collaboration and empowering team members to bring their best to the table.
-          <br>I developed the BA Randomizer tool, a testament to my technical skills and ability to create practical solutions that streamline processes and improve outcomes.
-          <br>Honored twice as Airport Champion of the month, I've demonstrated a dedication to excellence and a commitment to exceeding expectations. I'm deeply passionate about self-development and lifelong learning. I constantly seek new opportunities to expand my knowledge and skills, staying ahead of industry trends and advancements.
-          <br>I'm a curious individual with a thirst for knowledge and a drive to make a difference. I believe in the power of innovation to transform the industry and am committed to being a part of that change.<br><br></p>
-        </div>
-        
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+        <p>
+          An Engineer in the Aviation sector since 2021 with a passion for creativity and problem-solving. I thrive in challenging environments where innovation is key.
+          I tackle complex challenges with inventive solutions and believe in fostering collaboration to bring out the best in every team. My work on the BA Randomizer tool exemplifies my technical skills and practical approach.
+          Honored twice as Airport Champion of the month, I am dedicated to excellence and continuous self-development.
+        </p>
+      </div>
       <div class="rescontainer">
         <h2><a href="resume.pdf" download class="btn">Download Resume</a></h2>
       </div>
-      
       <div class="social">
         <h2>or</h2>
-        <a href="https://www.linkedin.com/in/angshumankalita/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
-        <a href="https://github.com/angshumankalita" target="_blank"><img src="github.png" alt="GitHub"></a>
-        <a href="mailto:angshumankalita0127@gmail.com"><img src="email.png" alt="Email"></a>
+        <a href="https://www.linkedin.com/in/angshumankalita/" target="_blank"><img src="linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://github.com/angshumankalita" target="_blank"><img src="github.png" alt="GitHub" /></a>
+        <a href="mailto:angshumankalita0127@gmail.com"><img src="email.png" alt="Email" /></a>
       </div>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <div><p>All right's of this page belong to angshumankalita0127@gmail.com</p></div>
+      <p>All rights of this page belong to angshumankalita0127@gmail.com</p>
     </div>
   </footer>
 
